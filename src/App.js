@@ -1,23 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
+import WeatherForm from './components/WeatherForm';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      <h1 className='text-center text-2xl md:text-3xl font-bold mt-6 md:mt-10'>
+        🌤️ Weather Dashboard
+      </h1>
+      <WeatherForm />
     </div>
   );
 }
