@@ -13,7 +13,7 @@ const WeatherForm = () => {
         setWeather(null);
 
         try {
-            const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}`);
+            const response = await fetch(`http://localhost:8000/api/weather?city=${encodeURIComponent(city)}`);
             const data = await response.json();
 
             if (response.ok) {
@@ -61,31 +61,7 @@ const WeatherForm = () => {
       )}
     </div>
   );
-    return (
-        <div className='weather-form max-x-wd mx-auto mt-10 p-4 border rounded shadow'>
-            <form onSubmit={fetchWeather}>
-                <input 
-                    type="text" 
-                    value={city} 
-                    onChange={(e) => setCity(e.target.value)} 
-                    placeholder='Enter City Name' 
-                    className='border px-2 py-1 mr-2'
-                />
-                <button type='submit' className='bg-blue-600 text-white px-4 py-1 rounded'>
-                    Get Weather
-                </button>
-            </form>
-            {error && <p className='text-red-500 mt-4'>{error}</p>}
-            {weather && (
-                <div className='mt-4'>
-                    <h2 className='text-xl font-bold'>{weather.name}, {weather.sys.country}</h2>
-                    <p>{weather.weather[0].main} - {weather.weather[0].description}</p>
-                    <p>Temperature: {Math.round(weather.main.temp - 273.15)}°C</p>
-                    <p>Humidity: {weather.main.humidity}%</p>
-                </div>
-            )}
-        </div>
-    );
+    
 };
 
 export default WeatherForm
