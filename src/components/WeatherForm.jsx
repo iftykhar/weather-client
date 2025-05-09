@@ -33,7 +33,7 @@ const WeatherForm = () => {
       
 
 return (
-    <div className='weather-form max-w-md mx-auto mt-10 p-4 border rounded shadow'>
+    <div className='weather-form max-w-md mx-auto mt-10 p-4 border rounded '>
         <form onSubmit={fetchWeather} className='flex flex-col sm:flex-row'>
             <input
                 type='text'
@@ -51,7 +51,7 @@ return (
         {error && <p className='text-red-500 mt-4'>{error}</p>}
 
         {weather && (
-            <div className='mt-4 p-4 border rounded bg-blue-50'>
+            <div className='mt-4 p-4 border rounded bg-black'>
                 <h2 className='text-xl font-bold break-words'>
                     {weather.name} {weather.sys?.country && `, ${weather.sys.country}`}
                 </h2>
