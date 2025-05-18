@@ -6,8 +6,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-image: url('../public/weather1.jpg');
-  height: 100vh;
-  width: 100vw;
+  height: auto;
+  width: auto;
   background-size: cover;
   background-position: center;
   color: white;
