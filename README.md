@@ -54,7 +54,6 @@ weather-client/
 │   ├── services/
 │   ├── App.js
 │   └── index.js
-├── .env
 ├── package.json
 └── README.md
 
@@ -70,6 +69,6 @@ git checkout -b feature/YourFeature
 git commit -m "Add YourFeature"
 ```
 4. Push to your fork and open a Pull Request
-Please follow the template and style guidelines in Make a README (Make a README).
+Please follow the template and style guidelines in [Make a README](https://www.makeareadme.com/).
 ## License
 This project is licensed under the MIT License. See LICENSE for details (GitHub).
