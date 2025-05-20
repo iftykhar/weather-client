@@ -45,17 +45,19 @@ Bundles the app for production into the `build` folder with optimized performanc
 build setup (Create React App)
 ## Folder Structure
 ```
+
 weather-client/
-nnn public/
-n nnn index.html
-nnn src/
-n nnn components/
-n nnn services/
-n nnn App.js
-n nnn index.js
-nnn .env
-nnn package.json
-nnn README.md
+├── public/
+│   └── index.html
+├── src/
+│   ├── components/
+│   ├── services/
+│   ├── App.js
+│   └── index.js
+├── .env
+├── package.json
+└── README.md
+
 ```
 ## Contributing
 1. Fork the repository
