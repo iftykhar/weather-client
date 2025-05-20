@@ -15,11 +15,14 @@ const WeatherForm = () => {
         setLoading(true);
       
         try {
-          const response = await fetch(`http://localhost:8000/api/weather?city=${encodeURIComponent(city)}`);
+          const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=dbc84abe4b9ecd92bceb49f72300b38c&units=metric`);
           const result = await response.json();
       
-          if (response.ok && result.status === 'success') {
-            setWeather(result.data);
+        
+        //   console.log('API Response:', result);
+
+          if (response.ok ) {
+            setWeather(result);
           } else {
             setError(result.message || 'Could not fetch weather data for selected city');
           }
