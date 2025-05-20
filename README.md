@@ -69,6 +69,27 @@ git checkout -b feature/YourFeature
 git commit -m "Add YourFeature"
 ```
 4. Push to your fork and open a Pull Request
-Please follow the template and style guidelines in [Make a README](https://www.makeareadme.com/).
-## License
-This project is licensed under the MIT License. See LICENSE for details (GitHub).
+```bash
+git push origin main
+git pull main
+```
+
+## 🤝 Contributing
+
+Contributions are welcome! If you'd like to:
+
+1. Fork the project
+2. Create a new branch (`git checkout -b feature-name`)
+3. Make your changes and commit (`git commit -m "Add some feature"`)
+4. Push to the branch (`git push origin feature-name`)
+5. Open a pull request
+
+Please ensure any pull request describes your changes and why they're needed.
+
+---
+
+## 📝 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+---
