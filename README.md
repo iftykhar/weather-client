@@ -2,7 +2,7 @@
 <img src="/public/weather-client.jpg" >
 <a href='https://postimg.cc/jL966gVK' target='_blank'><img src='https://i.postimg.cc/jL966gVK/weather-client-dsk.png' border='0' alt='weather-client-dsk'/></a>
  -->
-<a href='https://www.linkedin.com/in/iftykhar-alam/' target='_blank'><img width="auto" height="auto" src='https://i.postimg.cc/jL966gVK/weather-client-dsk.png' border='0' alt='weather-clinet'/></a>
+<a href='https://www.linkedin.com/in/iftykhar-alam/' target='_blank'><img width="50%" height="auto" src='https://i.postimg.cc/jL966gVK/weather-client-dsk.png' border='0' alt='weather-clinet'/></a>
 
 # weather-client
 ## Summary
