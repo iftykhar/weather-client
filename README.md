@@ -1,4 +1,5 @@
-<img src="/public/weather-clinet.jpg" >
+<img src="/public/weather-client.jpg" >
+
 # weather-client
 ## Summary
 weather-client is a React application that lets users search for and view current weather
