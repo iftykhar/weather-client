@@ -1,8 +1,10 @@
 <!-- <a href="https://www.linkedin.com/in/rpsohagwdd/" target="_blank"><img width="100%" height="auto" src="https://i.ibb.co.com/FQ69tD4/Dpy-YOs-OZe2.png" height="175px"/></a>
 <img src="/public/weather-client.jpg" >
 <a href='https://postimg.cc/jL966gVK' target='_blank'><img src='https://i.postimg.cc/jL966gVK/weather-client-dsk.png' border='0' alt='weather-client-dsk'/></a>
- -->
+ 
 <a href='https://www.linkedin.com/in/iftykhar-alam/' target='_blank'><img width="50%" height="auto" src='https://i.postimg.cc/jL966gVK/weather-client-dsk.png' border='0' alt='weather-clinet'/></a>
+-->
+<a href='https://www.linkedin.com/in/iftykhar-alam/' target='_blank'><img src='https://i.postimg.cc/pLV0H4q9/weather-client-dsk.png' border='0' alt='weather-client-dsk'/></a>
 
 # weather-client
 ## Summary
