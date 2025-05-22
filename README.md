@@ -4,7 +4,7 @@
  
 <a href='https://www.linkedin.com/in/iftykhar-alam/' target='_blank'><img width="50%" height="auto" src='https://i.postimg.cc/jL966gVK/weather-client-dsk.png' border='0' alt='weather-clinet'/></a>
 -->
-<a href='https://www.linkedin.com/in/iftykhar-alam/' target='_blank'><img src='https://i.postimg.cc/pLV0H4q9/weather-client-dsk.png' border='0' alt='weather-client-dsk'/></a>
+<a href='https://weather-client-iota.vercel.app/' target='_blank'><img src='https://i.postimg.cc/pLV0H4q9/weather-client-dsk.png' border='0' alt='weather-client-dsk'/></a>
 
 # weather-client
 ## Summary
